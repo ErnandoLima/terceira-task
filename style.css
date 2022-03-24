@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+   font-family: 'roboto', sans-serif;
+   font-size: 100%;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+
+.logo {
+   height: 60px;
+}
+
+.menu {
+   display: flex;
+   gap: 65px;
+
+}
+
+.item-menu {
+   font-size: 20px;
+}
+
+.area-principal {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   border-top: 2px solid grey;
+   padding: 50px;
+}
+
+.titulo {
+    font-weight: 900;
+    font-size: 35;
+
+}
+
+.rodape {
+    padding: 45px;
+    border-top: 2px solid grey;
+    text-align: center;
+
+}
